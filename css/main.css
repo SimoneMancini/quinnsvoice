@@ -78,14 +78,15 @@ header a{
 }
 #intro p strong{
     border-bottom: 1px dashed #FFFFFF;
-    display: inline-block;
+    display: none;
     font-family: 'bariol_bold';
     font-weight: normal;
     line-height: 1;
-    width: 360px;
 }
 #intro p a{
     color: #fff;
+    display: inline-block;
+    width: 360px;
 }
 #dynamic-text-wrapper {
     display:inline-block;
