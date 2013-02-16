@@ -60,6 +60,7 @@ header a{
     display: block;
     padding: 0 3px;
 }
+
 #intro{
     background-color: #272c33;
     background-image: url("../img/intro.jpg");
@@ -80,10 +81,26 @@ header a{
     display: inline-block;
     font-family: 'bariol_bold';
     font-weight: normal;
-    line-height: 1
+    line-height: 1;
+    width: 360px;
 }
 #intro p a{
     color: #fff;
+}
+#dynamic-text-wrapper {
+    display:inline-block;
+    position:relative;
+    height:30px;
+}
+#old-text, #new-text {
+    position:absolute;
+    display:block;
+    left: 0;
+    top: -20px
+}
+#new-text { display:none; }
+#dynamic-text-wrapper, #old-text, #new-text {
+    width: 345px;
 }
 #bio{
     float: left;
