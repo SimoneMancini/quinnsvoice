@@ -57,6 +57,8 @@ header li{
 }
 header a{
     color: #8f9195;
+    display: block;
+    padding: 0 3px;
 }
 #intro{
     background-color: #272c33;
