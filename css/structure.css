@@ -1,0 +1,97 @@
+/* ========================================================= G12 Omega ===*/
+.container {margin: 0 auto;zoom: 1;}
+.container:before, .container:after {content: "";display: table;}
+.container:after {clear: both;}
+
+.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9,.g10,.g11,.g12,.gc,.gs,.al{
+	float: left;
+	margin: 10px;
+	width: 100%;
+}
+.al{height: 90px;}
+/* ----------
+ -- 960px --
+---------- */
+	.container {width: 960px}
+	.gc{max-width: 620px}
+	.gs{max-width: 300px}
+	.g1{max-width: 60px}
+	.g2{max-width: 140px}
+	.g3{max-width: 220px}
+	.g4{max-width: 300px}
+	.g5{max-width: 380px}
+	.g6{max-width: 460px}
+	.g7{max-width: 540px}
+	.g8{max-width: 620px}
+	.g9{max-width: 700px}
+	.g10{max-width: 780px}
+	.g11{max-width: 860px}
+	.g12{max-width: 940px}
+	.al{max-width: 940px}
+	.al a{display: inline-block;float: right;}
+	.al small{display: none;}
+/* ---------
+ -- 768px --
+--------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.container {width: 768px}
+	.gc{max-width: 428px}
+	.gs{max-width: 300px}
+	.g1{max-width: 44px}
+	.g2{max-width: 108px}
+	.g3{max-width: 172px}
+	.g4{max-width: 236px}
+	.g5{max-width: 300px}
+	.g6{max-width: 364px}
+	.g7{max-width: 428px}
+	.g8{max-width: 492px}
+	.g9{max-width: 556px}
+	.g10{max-width: 620px}
+	.g11{max-width: 684px}
+	.g12{max-width: 748px}
+	.al{max-width: 748px}
+	.al a{display: inline-block;float: right;}
+	.al span{display: none;}
+}
+/* ---------
+ -- 480px --
+--------- */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.container {width: 480px}
+	.gc{max-width: 460px}
+	.gs{max-width: 460px}
+	.g1{max-width: 60px}
+	.g2{max-width: 100px}
+	.g3{max-width: 220px}
+	.g4{max-width: 460px}
+	.g5{max-width: 460px}
+	.g6{max-width: 460px}
+	.g7{max-width: 460px}
+	.g8{max-width: 460px}
+	.g9{max-width: 460px}
+	.g10{max-width: 460px}
+	.g11{max-width: 460px}
+	.g12{max-width: 460px}
+	.al{display: none;}
+}
+/* ---------
+ -- 320px --
+--------- */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	.container {width: 320px}
+	.gc{max-width: 300px}
+	.gs{max-width: 300px}
+	.g1{max-width: 44px}
+	.g2{max-width: 86px}
+	.g3{max-width: 140px}
+	.g4{max-width: 300px}
+	.g5{max-width: 300px}
+	.g6{max-width: 300px}
+	.g7{max-width: 300px}
+	.g8{max-width: 300px}
+	.g9{max-width: 300px}
+	.g10{max-width: 300px}
+	.g11{max-width: 300px}
+	.g12{max-width: 300px}
+	.al{display: none;}
+}
