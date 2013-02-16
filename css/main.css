@@ -110,6 +110,8 @@ header a{
 }
 #bio img{
     border-radius: 3px;
+    height: auto;
+    max-width: 100%;
 }
 #action{
     background-color: #f7f7f7;
@@ -165,6 +167,10 @@ footer h6{
     font-size: 31px;
     font-weight: normal;
     margin: 22px 0 10px;
+}
+footer img{
+    height: auto;
+    max-width: 100%;
 }
 footer p{
     color: #666e79;
