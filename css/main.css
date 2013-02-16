@@ -126,8 +126,10 @@ header a{
 }
 #social-proof li{
     display: inline-block;
-    margin: 0;
+    margin: 0 10px;
+    overflow: hidden;
     padding: 0;
+    width: 78px;
 }
 #social-proof a{
 
