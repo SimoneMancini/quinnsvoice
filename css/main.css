@@ -41,7 +41,7 @@ p{
     margin: 0 0 18px;
 }
 header{
-    margin: 0 0 94px;
+    margin: 0 0 113px;
     padding: 20px 0;
 }
 header ul{
@@ -71,7 +71,7 @@ header a{
 #intro p{
     color: #EFF1F5;
     font-family: 'bariol_light';
-    font-size: 56px;
+    font-size: 46px;
     line-height: 1;
     margin: 0;
     text-align: center;
@@ -86,7 +86,7 @@ header a{
 #intro p a{
     color: #fff;
     display: inline-block;
-    width: 360px;
+    width: 282px;
 }
 #dynamic-text-wrapper {
     display:inline-block;
@@ -112,6 +112,9 @@ header a{
     border-radius: 3px;
     height: auto;
     max-width: 100%;
+}
+#bio h2{
+    margin-top: 56px;
 }
 #action{
     background-color: #f7f7f7;
@@ -170,6 +173,7 @@ footer h6{
 }
 footer img{
     height: auto;
+    margin: 22px 0 0;
     max-width: 100%;
 }
 footer p{
